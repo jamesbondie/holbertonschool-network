@@ -3,7 +3,7 @@
 
 for arg in "$@"
 do
-    ping $arg
+    ping -c 5 "$arg"
 done
 
 if [ $# -eq 0 ]
