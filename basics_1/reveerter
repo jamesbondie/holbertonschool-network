@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# do not forget to change local adress back
+sudo sed -i 's/127.0.0.2/127.0.0.1/' /etc/hosts
